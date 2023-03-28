@@ -5,7 +5,8 @@ public class Person {
     public Person(String name, int age) {
         this.name = name;
         // feature cheese doubles the age
-        this.age = age * 2;
+        // hotfix triple the age
+        this.age = age * 3;
     }
 
     public String getName() {
