@@ -3,7 +3,8 @@ public class Person {
     private int age;
 
     public Person(String name, int age) {
-        this.name = name;
+        // feature bread sets name to upper case
+        this.name = name.toUpperCase();
         // feature cheese doubles the age
         // hotfix triple the age
         this.age = age * 3;
