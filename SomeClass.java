@@ -5,7 +5,8 @@ public class Person {
     public Person(String name, int age) {
         // feature bread sets name to upper case
         this.name = name.toUpperCase();
-        this.age = age;
+        // feature cheese doubles the age
+        this.age = age * 2;
     }
 
     public String getName() {
